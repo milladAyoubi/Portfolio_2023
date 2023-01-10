@@ -117,8 +117,8 @@ img {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1;
-    box-shadow: 0 1px 6px rgba(66, 66, 66, 0.1);
+    z-index: 4;
+    background-color: var(--background-color);
 }
 
 .nav {
@@ -258,56 +258,131 @@ img {
 }
 
 .section_text {
+    margin-bottom: 3rem;
     text-align: center;
 }
 
-.exp_images {
-    margin-top: 4rem;
+.sub_text {
+    text-align: left;
+    font-weight: 500;
 }
 
-.exp_img {
-    width: 280px;
+.services_card {
+    position: relative;
+    width: 228px;
+    height: 300px;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 7rem;
+    background-color: rgba(3, 3, 17, 0.25);
     text-align: center;
     transition: 0.2s ease-in-out;
 }
 
-.exp_img:hover {
+.services_card:hover {
+    transform: translate(0, -20px);
+    transition: 0.2s ease-in-out;
+    background: linear-gradient(200deg, var(--primary-color), var(--secondary-color));
+}
+
+.service_content {
+    position: relative;
+    top: 3.5rem;
+}
+
+.service_icon {
+    display: block;
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 1.5rem;
+    transition: 0.2s ease-in-out;
+}
+
+.service_title {
+    font-size: 14px;
+}
+
+.services_img:hover {
     transform: translate(0, -20px);
     transition: 0.2s ease-in-out;
 }
 
-.exp_img p {
+.services_img p {
     margin: 1.5rem 0;
 }
 
-.exp_content {
+.services_content {
+    margin-top: 4rem;
     display: flex;
     align-self: center;
     justify-content: center;
-    gap: 10rem;
+    gap: 5rem;
+}
+
+.instagram_content {
+    margin-top: 2rem;
+    display: flex;
+    align-self: center;
+    justify-content: flex-start;
+    gap: 4rem;
+}
+
+.instagram_img img {
+    border-radius: 5px;
+}
+
+.skills_container {
+    text-align: center;
 }
 
 .skills_content {
+    margin-top: 2rem;
     display: flex;
     align-self: center;
-    gap: 3rem;
+    gap: 4rem;
     justify-content: center;
 }
 
 .skill_img_container {
-    margin-top: 4rem;
     text-align: center;
 }
 
 .skill_img {
-    transition: 0.2s;
+    transition: 0.1s;
 }
 
-.skill_img {
-    width: 220px;
+.skill_img img {
+    width: 150px;
 }
 
 .skill_img:hover {
     transform: scale(1.1);
-    transition: 0.2s ease-in-out;
+    transition: 0.1s ease-in-out;
+}
+
+.footer {
+    background-color: rgba(10, 10, 10, 0.285);
+    color: #fff;
+    text-align: center;
+    font-weight: var(--font-semi);
+    padding: 2rem 0;
+}
+
+.footer__title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer__social {
+    margin-bottom: 1rem;
+}
+
+.footer__icon {
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0 1rem;
+}
+
+.footer__copy {
+    font-size: var(--smaller-font-size);
 }
