@@ -39,6 +39,7 @@ body {
     font-size: var(--normal-size);
     background-color: var(--background-color);
     color: white !important;
+    overflow-x: hidden;
 }
 
 h1,
@@ -90,7 +91,7 @@ img {
     z-index: 1;
     position: relative;
     row-gap: 5rem;
-    padding: 4rem 0 5rem;
+    padding: 3rem 0 5rem;
 }
 
 .grid {
@@ -98,6 +99,73 @@ img {
     display: grid;
     margin-left: 1rem;
     margin-right: 1rem;
+}
+
+.section_text {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.section_text h1 {
+    margin-bottom: 1rem;
+}
+
+.home_decor_1 {
+    width: 220px;
+    position: absolute;
+    left: -6rem;
+    top: 14rem;
+    overflow: none;
+    transform: rotate(15deg);
+}
+
+.home_decor_2 {
+    width: 220px;
+    position: absolute;
+    right: -6rem;
+    bottom: 14rem;
+    overflow: hidden;
+    transform: rotate(15deg);
+}
+
+.home_decor_3 {
+    width: 220px;
+    position: absolute;
+    left: -6rem;
+    top: 105rem;
+    transform: rotate(15deg);
+}
+
+.home_decor_4 {
+    width: 220px;
+    position: absolute;
+    right: -6rem;
+    top: 135rem;
+    transform: rotate(15deg);
+}
+
+.home_decor_5 {
+    width: 220px;
+    position: absolute;
+    right: -6rem;
+    top: 135rem;
+    transform: rotate(15deg);
+}
+
+.home_decor_6 {
+    width: 220px;
+    position: absolute;
+    left: -6rem;
+    top: 165rem;
+    transform: rotate(15deg);
+}
+
+.home_decor_7 {
+    width: 220px;
+    position: absolute;
+    right: -6rem;
+    top: 195rem;
+    transform: rotate(15deg);
 }
 
 @media screen and (min-width: 992px) {
@@ -231,6 +299,23 @@ img {
     justify-content: flex-start;
 }
 
+@media screen and (max-width: 1244px) {
+    .home_decor_1,
+    .home_decor_2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .home_decor_3,
+    .home_decor_4,
+    .home_decor_5,
+    .home_decor_6,
+    .home_decor_7 {
+        display: none;
+    }
+}
+
 .title {
     font-size: 70px;
     font-weight: 600;
@@ -257,11 +342,6 @@ img {
     width: 420px;
 }
 
-.section_text {
-    margin-bottom: 3rem;
-    text-align: center;
-}
-
 .sub_text {
     text-align: left;
     font-weight: 500;
@@ -270,7 +350,7 @@ img {
 .services_card {
     position: relative;
     width: 228px;
-    height: 300px;
+    height: 290px;
     text-align: center;
     padding: 2rem;
     border-radius: 7rem;
@@ -330,6 +410,36 @@ img {
 
 .instagram_img img {
     border-radius: 5px;
+}
+
+.resume {
+    margin-top: 4rem;
+}
+
+.resume_content {
+    margin-top: 4rem;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.resume_title {
+    font-weight: 600;
+}
+
+.resume_location {
+    opacity: 0.4;
+}
+
+.resume_date {
+    opacity: 0.4;
+}
+
+.resume_item {
+    margin: 2rem 0;
+    display: grid;
+    row-gap: 0.5rem;
 }
 
 .skills_container {
@@ -396,7 +506,7 @@ img {
 
 .parallax {
     /* The image used */
-    background-image: url("./images/Resume.png");
+    background-image: url("./images/Resume_New.png");
     /* Set a specific height */
     min-height: 500px;
     /* Create the parallax scrolling effect */
