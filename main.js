@@ -7,17 +7,12 @@ const sr = ScrollReveal({
 
 })
 
-
-
-
 sr.reveal('.home_content')
 sr.reveal('.services_container', {
     delay: 1200,
     origin: 'bottom',
     interval: 100
 })
-
-
 
 
 sr.reveal('.resume_section:nth-child(1)', {
@@ -41,6 +36,22 @@ sr.reveal('.skill_img_container', {
     delay: 200,
     distance: '60px',
     duration: 2200,
+    origin: 'bottom',
+
+})
+
+sr.reveal('.project_container:nth-child(1)', {
+    delay: 600,
+    distance: '60px',
+    duration: 2400,
+    origin: 'bottom',
+
+})
+
+sr.reveal('.project_container:nth-child(2)', {
+    delay: 800,
+    distance: '60px',
+    duration: 2400,
     origin: 'bottom',
 
 })
