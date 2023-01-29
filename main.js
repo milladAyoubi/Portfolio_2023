@@ -55,3 +55,49 @@ sr.reveal('.project_container:nth-child(2)', {
     origin: 'bottom',
 
 })
+
+sr.reveal('.contact_content:nth-child(1)', {
+    delay: 200,
+    distance: '60px',
+    duration: 1500,
+    origin: 'left',
+})
+
+sr.reveal('.contact_content:nth-child(2)', {
+    delay: 800,
+    distance: '60px',
+    duration: 1500,
+    origin: 'left',
+})
+
+
+const menu = (toggle, ID) => {
+    const togg = document.getElementById(toggle)
+    const nav = document.getElementById(ID)
+
+
+    if (togg && nav) {
+        togg.addEventListener('click', () => {
+            nav.classList.toggle('show')
+            console.log('Complete')
+        })
+    }
+
+}
+
+menu('navMenuBar', 'nav_menu')
+
+
+const navLink = document.querySelectorAll('.nav_link')
+
+
+navLink.forEach(e => e.addEventListener('click', () => {
+
+    navLink.forEach(e => e.classList.remove("selected"))
+    e.classList.add("selected")
+
+
+    const navMenu = document.querySelector('.nav_menu')
+    navMenu.classList.remove("show")
+
+}))
