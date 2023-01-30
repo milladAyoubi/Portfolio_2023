@@ -104,7 +104,7 @@
     }
     
     .grid {
-        max-width: 1024px;
+        max-width: 1224px;
         display: grid;
         margin-left: 1rem;
         margin-right: 1rem;
@@ -119,12 +119,30 @@
         margin-bottom: 1rem;
     }
     
-    .contact_main a {
-        padding: 0.55rem 2.5rem;
-        margin: 0.5rem 0;
-        font-size: 16px;
+    .contact_container_home {
+        margin-top: 1rem;
+    }
+    
+    .contact_container_home .contact_main a {
+        padding: 0.8rem 3.8rem;
+        margin: 1rem 0;
+        font-size: 20px;
         font-weight: bold;
-        border-radius: 25px;
+        border-radius: 100px;
+        color: #202020;
+        border: 2px solid white;
+        transition: 0.8s;
+        background-color: white;
+    }
+    
+    .nav_item .contact_main a {
+        padding: 0.6rem 2.8rem;
+        position: relative;
+        bottom: 4px;
+        margin: 1rem 0;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 100px;
         color: #202020;
         border: 2px solid white;
         transition: 0.8s;
@@ -362,7 +380,7 @@
     .home_img {
         position: relative;
         top: 1rem;
-        width: 480px;
+        width: 580px;
     }
     
     .sub_text {
@@ -440,14 +458,20 @@
     
     .project {
         background: #222f3e;
-        height: 280px;
+        height: 400px;
+        width: 700px;
         overflow: hidden;
         border-radius: 1.5em;
         border: 5px solid rgba(255, 255, 255, 0.008);
     }
     
     .project img {
+        width: 100%;
         transition: transform 1s ease;
+    }
+    
+    .instagram_image {
+        height: auto;
     }
     /* [3] Finally, transforming the image when container gets hovered */
     
@@ -469,13 +493,22 @@
     }
     
     .project_container {
-        margin: 2rem 0;
+        margin: 5rem 0;
+    }
+    
+    .project_links h4 {
+        font-size: 1.2rem;
+    }
+    
+    .project_container h3 {
+        font-size: 1.8rem;
+        margin: 1rem 0;
     }
     
     .projects_group {
         display: flex;
-        justify-content: space-between;
-        gap: 10px;
+        justify-content: flex-start;
+        gap: 2rem;
     }
     
     .project_group {
@@ -489,7 +522,7 @@
     }
     
     .skill_used {
-        font-size: 12px;
+        font-size: 16px;
         font-weight: 500;
         background-color: rgba(255, 255, 255, 0.057);
         padding: 0.3rem 0.8rem;
@@ -513,7 +546,6 @@
     
     .project img {
         cursor: pointer;
-        width: 490px;
     }
     
     .project_links {
@@ -864,7 +896,7 @@
         .project {
             margin: 2rem auto;
             width: 500px;
-            height: 280px
+            height: auto;
         }
         .project img {
             width: 100%;
