@@ -474,7 +474,7 @@
         transition: transform 1s ease;
     }
     
-    .instagram_image {
+    .instagram_image .project {
         height: auto;
     }
     /* [3] Finally, transforming the image when container gets hovered */
