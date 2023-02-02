@@ -903,6 +903,12 @@
             display: block;
             margin: 2rem 0;
         }
+        .project_container h3 {
+            font-size: 1.4rem;
+        }
+        .project_links h4 {
+            font-size: 1rem;
+        }
         .project {
             margin: 2rem auto;
             width: 500px;
@@ -912,6 +918,9 @@
             width: 100%;
             border-radius: 20px;
             border: 5px solid rgba(255, 255, 255, 0.008);
+        }
+        .skill_used {
+            font-size: 0.8rem;
         }
         .skill_group {
             justify-content: center;
@@ -956,7 +965,12 @@
     @media screen and (max-width: 500px) {
         .project {
             margin: 2rem auto;
-            width: 400px;
-            height: 200px
+            width: 100%;
+        }
+        .instagram_image .project {
+            height: 100%;
+        }
+        .skill_used {
+            font-size: 0.5rem;
         }
     }
