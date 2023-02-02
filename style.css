@@ -493,7 +493,7 @@
     }
     
     .project_container {
-        margin: 5rem 0;
+        margin: 1rem 0;
     }
     
     .project_links h4 {
@@ -803,6 +803,11 @@
     }
     
     @media screen and (max-width: 1024px) {
+        .nav_item .contact_main a {
+            background-color: #B7389D;
+            border: 2px solid #B7389D;
+            color: white;
+        }
         .hr_class {
             margin: 0 6rem;
         }
