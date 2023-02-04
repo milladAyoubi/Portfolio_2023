@@ -807,6 +807,40 @@
         background-color: white;
     }
     
+    @media screen and (max-width: 1666px) {
+        .projects {
+            text-align: center;
+        }
+        .projects_group {
+            background: none;
+            text-align: center;
+            display: block;
+            margin: 2rem 0;
+        }
+        .project_container h3 {
+            font-size: 1.4rem;
+        }
+        .project_links h4 {
+            font-size: 1.4rem;
+        }
+        .project {
+            margin: 2rem auto;
+            width: 700px;
+            height: auto;
+        }
+        .project img {
+            width: 100%;
+            border-radius: 20px;
+            border: 5px solid rgba(255, 255, 255, 0.008);
+        }
+        .skill_used {
+            font-size: 1.2rem;
+        }
+        .skill_group {
+            justify-content: center;
+        }
+    }
+    
     @media screen and (max-width: 1024px) {
         .nav_item .contact_main a {
             background-color: #B7389D;
