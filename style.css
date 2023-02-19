@@ -462,8 +462,8 @@
     
     .project {
         background: #222f3e;
-        height: 400px;
-        width: 700px;
+        height: 340px;
+        width: 600px;
         overflow: hidden;
         border-radius: 1.5em;
         border: 5px solid rgba(255, 255, 255, 0.008);
@@ -804,7 +804,7 @@
         background-color: white;
     }
     
-    @media screen and (max-width: 1666px) {
+    @media screen and (max-width: 1266px) {
         .projects {
             text-align: center;
         }
