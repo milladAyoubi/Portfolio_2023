@@ -996,6 +996,9 @@
     }
     
     @media screen and (max-width: 500px) {
+        .resume_title {
+            font-size: 1rem;
+        }
         .sub_title {
             display: none;
         }
