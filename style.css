@@ -826,6 +826,8 @@
             height: auto;
         }
         .project img {
+            position: relative;
+            top: 3px;
             width: 100%;
             border-radius: 20px;
             border: 5px solid rgba(255, 255, 255, 0.008);
@@ -994,6 +996,16 @@
     }
     
     @media screen and (max-width: 500px) {
+        .sub_title {
+            display: none;
+        }
+        .title {
+            font-size: 32px;
+        }
+        .grid {
+            margin-left: 0;
+            margin-right: 0;
+        }
         .project {
             margin: 2rem auto;
             width: 100%;
