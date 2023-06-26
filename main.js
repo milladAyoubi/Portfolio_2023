@@ -2,7 +2,7 @@ const sr = ScrollReveal({
     origin: 'bottom',
     distance: '60px',
     duration: 1500,
-    delay: 400,
+    delay: 100,
 
 
 })
@@ -16,26 +16,26 @@ sr.reveal('.services_container', {
 
 
 sr.reveal('.resume_section:nth-child(1)', {
-    delay: 200,
+    delay: 100,
     distance: '60px',
     duration: 2400,
-    origin: 'left',
+    origin: 'top',
 
 })
 
 sr.reveal('.resume_section:nth-child(2)', {
-    delay: 200,
+    delay: 100,
     distance: '60px',
     duration: 2400,
-    origin: 'right',
+    origin: 'top',
 
 })
 
 
 sr.reveal('.skill_img_container', {
-    delay: 200,
+    delay: 100,
     distance: '60px',
-    duration: 2200,
+    duration: 2100,
     origin: 'bottom',
 
 })
