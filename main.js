@@ -1,7 +1,7 @@
 const sr = ScrollReveal({
     origin: 'bottom',
     distance: '60px',
-    duration: 1500,
+    duration: 2000,
     delay: 100,
 
 
@@ -18,7 +18,7 @@ sr.reveal('.services_container', {
 sr.reveal('.resume_section:nth-child(1)', {
     delay: 100,
     distance: '60px',
-    duration: 2400,
+    duration: 1200,
     origin: 'top',
 
 })
@@ -26,7 +26,7 @@ sr.reveal('.resume_section:nth-child(1)', {
 sr.reveal('.resume_section:nth-child(2)', {
     delay: 100,
     distance: '60px',
-    duration: 2400,
+    duration: 1200,
     origin: 'top',
 
 })
@@ -35,13 +35,13 @@ sr.reveal('.resume_section:nth-child(2)', {
 sr.reveal('.skill_img_container', {
     delay: 100,
     distance: '60px',
-    duration: 2100,
+    duration: 1200,
     origin: 'bottom',
 
 })
 
 sr.reveal('.project_container:nth-child(1)', {
-    delay: 600,
+    delay: 300,
     distance: '60px',
     duration: 2000,
     origin: 'bottom',
@@ -49,48 +49,48 @@ sr.reveal('.project_container:nth-child(1)', {
 })
 
 sr.reveal('.project_container:nth-child(2)', {
-    delay: 800,
+    delay: 400,
     distance: '60px',
-    duration: 2000,
+    duration: 1000,
     origin: 'bottom',
 
 })
 
 sr.reveal('.project_container:nth-child(3)', {
-    delay: 1000,
+    delay: 500,
     distance: '60px',
-    duration: 2000,
+    duration: 1000,
     origin: 'bottom',
 
 })
 
 sr.reveal('.project_container:nth-child(4)', {
-    delay: 1200,
+    delay: 600,
     distance: '60px',
-    duration: 2000,
+    duration: 1000,
     origin: 'bottom',
 
 })
 
 sr.reveal('.project_container:nth-child(5)', {
-    delay: 1400,
+    delay: 700,
     distance: '60px',
-    duration: 2000,
+    duration: 1000,
     origin: 'bottom',
 
 })
 
 sr.reveal('.contact_content:nth-child(1)', {
-    delay: 200,
+    delay: 100,
     distance: '60px',
-    duration: 1500,
+    duration: 750,
     origin: 'left',
 })
 
 sr.reveal('.contact_content:nth-child(2)', {
-    delay: 800,
+    delay: 400,
     distance: '60px',
-    duration: 1500,
+    duration: 750,
     origin: 'left',
 })
 
