@@ -100,7 +100,7 @@
         z-index: 1;
         position: relative;
         row-gap: 5rem;
-        padding: 3rem 0 5rem;
+        padding: 3rem 3rem !important;
     }
     
     .grid {
@@ -248,6 +248,7 @@
     }
     
     .nav_list {
+        padding-left: 3rem;
         width: 100%;
         display: flex;
         gap: 5rem;
@@ -329,8 +330,9 @@
     }
     
     .home_text p {
-        font-size: 1.4rem;
-        margin-bottom: 0.8rem;
+        opacity: 0.8;
+        font-size: 1rem;
+        margin-bottom: 1rem;
         font-weight: bold;
     }
     
@@ -364,10 +366,12 @@
     
     .sub_title {
         color: white;
-        font-size: 1.3rem;
+        line-height: 160%;
+        opacity: 0.6;
+        font-size: 1.2rem;
         font-weight: 400;
         width: 100%;
-        padding: 1rem 0;
+        padding: 2rem 0;
         font-weight: 400;
     }
     
@@ -390,8 +394,6 @@
     }
     
     .contact_container_home {
-        position: relative;
-        top: 1rem;
         display: flex;
     }
     
@@ -420,14 +422,15 @@
     }
     
     .services_text {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         margin: auto 4rem;
     }
     
     .services_text p {
         font-size: 1.2rem;
-        line-height: 140%;
-        margin-top: 0.8rem;
+        line-height: 160%;
+        opacity: 0.6;
+        margin-top: 1rem;
     }
     
     .service_icon {
@@ -492,17 +495,12 @@
         gap: 4rem;
     }
     
-    .projects {
-        margin-top: 2rem;
-    }
-    
     .project_links h4 {
         font-size: 1.2rem;
     }
     
     .project_container h3 {
         font-size: 1.8rem;
-        margin-top: 5rem;
         margin-bottom: 1rem;
     }
     
@@ -805,6 +803,7 @@
     }
     
     @media screen and (max-width: 1266px) {
+        .nav_list {}
         .projects {
             text-align: center;
         }
@@ -917,6 +916,9 @@
             width: 100%;
             margin-top: 8rem;
         }
+        .home_img {
+            display: none;
+        }
         .service_content {
             text-align: center;
             display: block;
@@ -1003,6 +1005,7 @@
             display: none;
         }
         .title {
+            margin: 2rem 0;
             font-size: 32px;
         }
         .grid {
