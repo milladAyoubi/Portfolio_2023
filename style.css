@@ -422,7 +422,7 @@
     }
     
     .services_text {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         margin: auto 4rem;
     }
     
@@ -466,7 +466,7 @@
     .project {
         background: #222f3e;
         height: 340px;
-        width: 590px;
+        width: 600px;
         overflow: hidden;
         border-radius: 1.5em;
         border: 5px solid rgba(255, 255, 255, 0.008);
@@ -500,7 +500,7 @@
     }
     
     .project_container h3 {
-        font-size: 2.4rem;
+        font-size: 2rem;
         margin-top: 4rem;
         margin-bottom: 1rem;
     }
@@ -787,6 +787,7 @@
     }
     
     .parallax {
+        margin-top: 4rem;
         /* The image used */
         background-image: url("./images/Resume_New.png");
         /* Set a specific height */
