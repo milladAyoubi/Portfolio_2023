@@ -1000,6 +1000,12 @@
     }
     
     @media screen and (max-width: 500px) {
+        .parallax {
+            display: none;
+        }
+        .services {
+            display: none;
+        }
         .resume_title {
             font-size: 1rem;
         }
