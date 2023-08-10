@@ -367,7 +367,7 @@
     .sub_title {
         color: white;
         line-height: 160%;
-        opacity: 0.6;
+        opacity: 0.8;
         font-size: 1.2rem;
         font-weight: 400;
         width: 100%;
@@ -429,7 +429,7 @@
     .services_text p {
         font-size: 1.2rem;
         line-height: 160%;
-        opacity: 0.6;
+        opacity: 0.8;
         margin-top: 1rem;
     }
     
@@ -466,7 +466,7 @@
     .project {
         background: #222f3e;
         height: 340px;
-        width: 600px;
+        width: 590px;
         overflow: hidden;
         border-radius: 1.5em;
         border: 5px solid rgba(255, 255, 255, 0.008);
@@ -500,7 +500,8 @@
     }
     
     .project_container h3 {
-        font-size: 1.8rem;
+        font-size: 2.4rem;
+        margin-top: 4rem;
         margin-bottom: 1rem;
     }
     
