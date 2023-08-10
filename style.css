@@ -1000,6 +1000,9 @@
     }
     
     @media screen and (max-width: 500px) {
+        .section_container {
+            padding: 0 !important;
+        }
         .parallax {
             display: none;
         }
