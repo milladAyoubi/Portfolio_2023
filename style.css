@@ -103,6 +103,10 @@
         padding: 3rem 3rem !important;
     }
     
+    .home_img {
+        animation: move 2s linear infinite alternate;
+    }
+    
     .grid {
         max-width: 1224px;
         display: grid;
@@ -1032,5 +1036,17 @@
         }
         .skill_used {
             font-size: 0.5rem;
+        }
+    }
+    
+    @keyframes move {
+        0% {
+            transform: translate(0, 0);
+        }
+        50% {
+            transform: translate(-5px, 10px);
+        }
+        100% {
+            transform: translate(5px, 20px);
         }
     }
