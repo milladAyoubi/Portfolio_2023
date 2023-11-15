@@ -481,6 +481,17 @@
         transition: transform 1s ease;
     }
     
+    .project-description {
+        font-size: 0.9rem;
+        line-height: 160%;
+        opacity: 0.8;
+        margin-top: 1rem;
+    }
+    
+    .features-text {
+        margin: 1rem 0;
+    }
+    
     .instagram_image .project {
         height: auto;
     }
